@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 /**
- * Перетворює заголовок на slug для URL: "Мій перший пост!" -> "mii-pershyi-post"
+ * Перетворює заголовок на slug для URL
  */
 function makeSlug(string $text): string
 {
