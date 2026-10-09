@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-// Підключаємо бібліотеку функцій і класи (кожен файл - лише один раз)
+// Підключаємо бібліотеку функцій і класи 
 require_once __DIR__ . '/lib/functions.php';
 require_once __DIR__ . '/classes/Article.php';
 require_once __DIR__ . '/classes/FeaturedArticle.php';
