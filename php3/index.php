@@ -34,7 +34,7 @@ $blog->addArticle(new FeaturedArticle(
     1
 ));
 $blog->addArticle(new FeaturedArticle(
-    'The Best Books of 2026',
+    'Найкращі книги 2026',
     'We’re starting to winnow down our favorites—at least two editors have cast votes for books published this fall.',
     'Chloe Schama',
     '2026-10-05',
