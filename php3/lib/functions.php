@@ -30,7 +30,7 @@ function truncateText(string $text, int $length = 60): string
 }
 
 /**
- * Форматує дату з РРРР-ММ-ДД у ДД.ММ.РРРР
+ * Форматує дату
  */
 function formatDate(string $date): string
 {
