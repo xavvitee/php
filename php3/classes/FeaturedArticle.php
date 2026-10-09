@@ -4,7 +4,7 @@ declare(strict_types=1);
 require_once __DIR__ . '/Article.php';
 
 /**
- * Похідний клас: рекомендована стаття (з банером і пріоритетом).
+ * Похідний клас: рекомендована стаття.
  */
 class FeaturedArticle extends Article
 {
@@ -35,7 +35,7 @@ class FeaturedArticle extends Article
         return $this->priority;
     }
 
-    // Перевизначений метод: беремо опис батька і доповнюємо його
+    // Перевизначений метод
     public function getInfo(): string
     {
         return parent::getInfo() . " | ★ рекомендована, пріоритет: {$this->priority}, банер: {$this->bannerImage}";
