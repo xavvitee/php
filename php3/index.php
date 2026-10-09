@@ -47,7 +47,7 @@ $blog->addArticle(new FeaturedArticle(
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Блог — ООП у PHP</title>
+    <title>Блог</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
