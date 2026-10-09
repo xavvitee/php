@@ -11,7 +11,7 @@ class Blog
     /** @var Article[] */
     private array $articles = [];
 
-    // Додає статтю (приймає і Article, і FeaturedArticle, бо вона - нащадок Article)
+    // Додає статтю (приймає і Article, і FeaturedArticle)
     public function addArticle(Article $article): void
     {
         $this->articles[] = $article;
