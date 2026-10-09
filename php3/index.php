@@ -84,7 +84,7 @@ $blog->addArticle(new FeaturedArticle(
     <?php endforeach; ?>
 </table>
 
-<h2>Останні 3 статті (listRecent)</h2>
+<h2>Останні 3 статті</h2>
 <div class="box">
     <ol>
         <?php foreach ($blog->listRecent(3) as $article): ?>
@@ -93,7 +93,7 @@ $blog->addArticle(new FeaturedArticle(
     </ol>
 </div>
 
-<h2>Статті автора «Hannah Jackson» (findByAuthor)</h2>
+<h2>Статті автора «Hannah Jackson»</h2>
 <div class="box">
     <ul>
         <?php foreach ($blog->findByAuthor('Hannah Jackson') as $article): ?>
