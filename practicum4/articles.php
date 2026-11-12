@@ -1,5 +1,5 @@
 <?php
-// Функції роботи з таблицею articles (усі запити - підготовлені).
+// Функції роботи з таблицею articles.
 
 function listAll(PDO $pdo): array
 {
