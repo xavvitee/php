@@ -38,13 +38,12 @@ async function loadList(term = '') {
   }
 }
 
-// Крок 3: завантаження при відкритті сторінки
+// Завантаження при відкритті сторінки
 loadList();
 
-// Крок 4: живий пошук
+// Живий пошук
 searchInput.addEventListener('input', () => loadList(searchInput.value));
 
-// Кроки 5–6: додавання без перезавантаження
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
   const payload = Object.fromEntries(new FormData(form));
