@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Блог (AJAX)</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; }
+    input, textarea, button { font: inherit; padding: .5rem; margin: .25rem 0; width: 100%; box-sizing: border-box; }
+    button { width: auto; cursor: pointer; }
+    article { border-bottom: 1px solid #ccc; padding: .75rem 0; }
+    article small { color: #666; }
+    .error { color: #b00020; }
+  </style>
+</head>
+<body>
+  <h1>Блог</h1>
+
+  <input id="search" type="search" placeholder="Пошук за заголовком...">
+
+  <h2>Нова стаття</h2>
+  <form id="add-form">
+    <input name="title" placeholder="Заголовок" required>
+    <input name="author" placeholder="Автор" required>
+    <textarea name="content" rows="4" placeholder="Текст статті" required></textarea>
+    <button type="submit">Опублікувати</button>
+  </form>
+
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
