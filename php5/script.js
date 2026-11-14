@@ -61,7 +61,7 @@ form.addEventListener('submit', async (event) => {
 
     form.reset();
     if (searchInput.value.trim() === '') {
-      // нова стаття зверху списку
+      
       if (results.querySelector('article')) {
         results.insertAdjacentHTML('afterbegin', articleHtml(data));
       } else {
